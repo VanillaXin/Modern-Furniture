@@ -1,6 +1,7 @@
 package com.flechazo.modernfurniture.util.snow;
 
 import net.minecraft.core.BlockPos;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,6 +28,7 @@ public record SnowStats(int totalSnowBlocks, int snowCycles, Map<BlockPos, Integ
     }
 
     @Override
+    @NotNull
     public String toString() {
         return String.format(
                 "SnowStats{blocks=%d, cycles=%d, coverage=%.2f%%, avgTime=%.2fms, sections=%d, " +

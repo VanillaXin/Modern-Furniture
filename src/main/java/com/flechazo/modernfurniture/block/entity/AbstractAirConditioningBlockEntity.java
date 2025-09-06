@@ -2,7 +2,7 @@ package com.flechazo.modernfurniture.block.entity;
 
 import com.flechazo.modernfurniture.ModernFurniture;
 import com.flechazo.modernfurniture.config.module.SnowGenerationConfig;
-import com.flechazo.modernfurniture.util.RoomDetector;
+import com.flechazo.modernfurniture.util.room.RoomDetector;
 import com.flechazo.modernfurniture.util.snow.SnowManager;
 import com.flechazo.modernfurniture.util.snow.SnowStats;
 import com.flechazo.modernfurniture.util.wire.WireConnectable;

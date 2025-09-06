@@ -2,7 +2,7 @@ package com.flechazo.modernfurniture.block.entity;
 
 import com.flechazo.modernfurniture.block.WallMountedAirConditioningBlock;
 import com.flechazo.modernfurniture.block.manager.BlockEntityManager;
-import com.flechazo.modernfurniture.util.RoomDetector;
+import com.flechazo.modernfurniture.util.room.RoomDetector;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.state.BlockState;
